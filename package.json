@@ -2,7 +2,7 @@
   "name": "design-with-ai",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://sanbuphy.github.io/design-with-AI",
+  "homepage": "https://datawhalechina.github.io/design-with-AI",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",

@@ -87,7 +87,7 @@ const InstructorTeam = () => {
         <h3 className="subsection-title">Contributors</h3>
         <div className="contributors-wall">
           <img 
-            src="https://contrib.rocks/image?repo=sanbuphy/design-with-AI" 
+            src="https://contrib.rocks/image?repo=datawhalechina/design-with-AI" 
             alt="GitHub Contributors" 
             className="contributors-image" 
           />

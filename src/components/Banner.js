@@ -47,7 +47,7 @@ const Banner = () => {
         <a href="#syllabus">课程大纲</a>
         <a href="#faq">FAQ</a>
         <a 
-          href="https://github.com/sanbuphy/design-with-AI" 
+          href="https://github.com/datawhalechina/design-with-AI" 
           className="github-link" 
           target="_blank" 
           rel="noopener noreferrer"
