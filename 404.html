@@ -4,33 +4,39 @@
   <meta charset="utf-8">
   <title>Single Page Apps for GitHub Pages</title>
   <script type="text/javascript">
-    // 单页应用GitHub Pages路由处理
+    // 单页应用GitHub Pages路由处理 - 优化版
     (function(l) {
-      if (l.search[1] === '/' ) {
-        var decoded = l.search.slice(1).split('&').map(function(s) { 
-          return s.replace(/~and~/g, '&')
-        }).join('?');
-        window.history.replaceState(null, null,
-            l.pathname.slice(0, -1) + decoded + l.hash
-        );
+      // 确保我们不会进入无限重定向循环
+      if (sessionStorage.getItem('redirected')) {
+        sessionStorage.removeItem('redirected');
+        return;
+      }
+      
+      // 仓库名称
+      var repoName = '/design-with-AI';
+      var pathSegmentsToKeep = 1; // 保留的路径段数
+      
+      var l = window.location;
+      
+      // 确认当前是否为404页面或需要重定向的路径
+      if (l.pathname.startsWith(repoName + '/course/')) {
+        // 标记已重定向，防止循环
+        sessionStorage.setItem('redirected', 'true');
+        
+        // 构建目标URL - 保留路径并跳转到主页
+        var redirectUrl = l.protocol + '//' + l.hostname + 
+                         (l.port ? ':' + l.port : '') + 
+                         repoName;
+        
+        window.location.replace(redirectUrl);
       }
     }(window.location))
   </script>
 </head>
 <body>
-  <script type="text/javascript">
-    // 将所有路由重定向到index.html
-    var segmentCount = 1;
-    var location = window.location;
-    var repo = "/design-with-AI";
-    var l = location.pathname.split('/');
-    l.length > segmentCount && (l[1] === repo.slice(1) ? l.splice(0, 2, repo) : l.splice(0, 1));
-    l = l.join('/') || '/';
-    window.location.replace(
-      location.protocol + '//' + location.hostname + 
-      (location.port ? ':' + location.port : '') + repo + 
-      '/index.html' + l + (location.search || '') + (location.hash || '')
-    );
-  </script>
+  <div style="text-align: center; padding: 20px; font-family: Arial, sans-serif;">
+    <h2>正在跳转到主页...</h2>
+    <p>如果没有自动跳转，请点击 <a href="/design-with-AI">这里</a> 前往主页</p>
+  </div>
 </body>
 </html> 
