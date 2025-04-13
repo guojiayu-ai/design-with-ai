@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/design-with-AI/static/css/main.edcffefb.css",
-    "main.js": "/design-with-AI/static/js/main.5e69f177.js",
-    "static/js/453.d690411f.chunk.js": "/design-with-AI/static/js/453.d690411f.chunk.js",
-    "static/media/dwLOGO.png": "/design-with-AI/static/media/dwLOGO.8b70c7ba4f72c9db0515.png",
-    "static/media/github-mark.svg": "/design-with-AI/static/media/github-mark.6fa18895f6e6c7772cab7049f7e05f59.svg",
-    "index.html": "/design-with-AI/index.html",
-    "main.edcffefb.css.map": "/design-with-AI/static/css/main.edcffefb.css.map",
-    "main.5e69f177.js.map": "/design-with-AI/static/js/main.5e69f177.js.map",
-    "453.d690411f.chunk.js.map": "/design-with-AI/static/js/453.d690411f.chunk.js.map"
+    "main.css": "/design-with-ai/static/css/main.edcffefb.css",
+    "main.js": "/design-with-ai/static/js/main.5d2a238e.js",
+    "static/js/453.d690411f.chunk.js": "/design-with-ai/static/js/453.d690411f.chunk.js",
+    "static/media/dwLOGO.png": "/design-with-ai/static/media/dwLOGO.8b70c7ba4f72c9db0515.png",
+    "static/media/github-mark.svg": "/design-with-ai/static/media/github-mark.6fa18895f6e6c7772cab7049f7e05f59.svg",
+    "index.html": "/design-with-ai/index.html",
+    "main.edcffefb.css.map": "/design-with-ai/static/css/main.edcffefb.css.map",
+    "main.5d2a238e.js.map": "/design-with-ai/static/js/main.5d2a238e.js.map",
+    "453.d690411f.chunk.js.map": "/design-with-ai/static/js/453.d690411f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.edcffefb.css",
-    "static/js/main.5e69f177.js"
+    "static/js/main.5d2a238e.js"
   ]
 }
