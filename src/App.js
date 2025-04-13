@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import './App.css';
 
 import Banner from './components/Banner';
@@ -7,7 +7,7 @@ import CoursePage from './components/CoursePage';
 
 function App() {
   return (
-    <Router basename="/design-with-AI">
+    <Router>
       <div className="App">
         <Banner />
         <main>
@@ -17,6 +17,7 @@ function App() {
               path="/"
               element={<Navigate to="/course/design-2d-spring-2025" replace />}
             />
+            <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>
         </main>
       </div>

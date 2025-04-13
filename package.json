@@ -2,7 +2,7 @@
   "name": "design-with-ai",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://datawhalechina.github.io/design-with-AI",
+  "homepage": "https://datawhalechina.github.io/design-with-ai",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
@@ -20,7 +20,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build -b page",
+    "deploy": "gh-pages -d build -b page_build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

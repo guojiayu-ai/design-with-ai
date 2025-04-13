@@ -10,6 +10,7 @@
 - 课程大纲和教学内容展示
 - 教师团队介绍
 - 常见问题解答(FAQ)
+- 移动端兼容性优化
 
 ## 🚀 快速开始
 
@@ -44,7 +45,23 @@ npm run build
 npm run deploy
 ```
 
-该命令会构建项目并将其部署到GitHub Pages上。
+该命令会构建项目并将构建结果部署到GitHub Pages上。它会自动将`build`目录的内容推送到`page_build`分支。
+
+**注意**：当前配置使用了`--add`参数，这可能会将不必要的文件也推送到部署分支。如果只想推送构建结果，可以修改`package.json`中的部署脚本：
+
+```json
+"deploy": "gh-pages -d build -b page_build"
+```
+
+这样只会推送`build`目录的内容到`page_build`分支。
+
+### GitHub Pages路由解决方案
+
+本项目使用`HashRouter`而非`BrowserRouter`来解决GitHub Pages上的路由问题。这样可以确保直接访问URL（如`https://datawhalechina.github.io/design-with-ai/#/course/design-2d-spring-2025`）不会出现重定向循环。
+
+如果遇到路由问题，请访问主页`https://datawhalechina.github.io/design-with-ai`，系统会自动重定向到正确的路由。
+
+**对于开发者**：如需在本地开发环境使用`BrowserRouter`，可以在开发分支中更改Router类型，但部署到GitHub Pages前请切换回`HashRouter`。
 
 ## 📁 项目结构
 
@@ -87,3 +104,19 @@ src/
 ### 修改课程内容
 
 编辑`src/components/`目录下相应的组件文件来更新课程内容。
+
+## 📱 移动端适配
+
+本网站已针对移动端进行了特别优化：
+
+- 响应式UI布局，自动适应不同屏幕尺寸
+- 触摸事件优化，支持在移动设备上平滑交互
+- 解决了iOS和Android上的常见显示问题
+- 针对移动端的性能优化，减少不必要的重绘和刷新
+
+### 已知问题
+
+如果在手机浏览器访问时遇到页面不断刷新的问题，请尝试以下解决方案：
+- 关闭浏览器的下拉刷新功能
+- 尝试使用不同的浏览器（如Chrome或Safari）
+- 确保使用最新版本的应用

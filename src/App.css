@@ -230,7 +230,6 @@ body {
   background-color: white;
   border-top: none;
   border-bottom: none;
-  padding-top: 0px;
   padding-bottom: 20px;
 }
 
@@ -1160,7 +1159,9 @@ blockquote cite {
 /* FAQ 部分样式 */
 .faq-section {
   background-color: white;
-  margin-top: -20px;
+  margin-top: 0;
+  padding-top: 40px;
+  padding-bottom: 60px;
 }
 
 .faq-intro {
@@ -1174,17 +1175,18 @@ blockquote cite {
 .faq-intro p {
   margin: 0;
   line-height: 1.6;
+  font-size: 1.05rem;
 }
 
 .faq-list {
   display: flex;
   flex-direction: column;
-  gap: 25px;
+  gap: 30px;
 }
 
 .faq-item {
   border-bottom: 1px solid var(--border-color);
-  padding-bottom: 25px;
+  padding-bottom: 30px;
 }
 
 .faq-item:last-child {
@@ -1192,7 +1194,7 @@ blockquote cite {
 }
 
 .faq-question {
-  font-size: 1.2rem;
+  font-size: 1.25rem;
   font-weight: 600;
   color: #333;
   margin-bottom: 15px;
@@ -1205,6 +1207,7 @@ blockquote cite {
 
 .faq-answer p {
   margin: 0;
+  font-size: 1.05rem;
 }
 
 /* 新的课程亮点样式 */
@@ -1317,15 +1320,15 @@ blockquote cite {
 
 /* 气泡碰撞效果样式 */
 .artistic-bubble-container {
-  margin: 40px 0;
-  background: linear-gradient(135deg, rgba(240,240,245,0.7) 0%, rgba(245,245,255,0.3) 100%);
+  margin: 10px 0;
+  /* background: linear-gradient(135deg, rgba(240,240,245,0.7) 0%, rgba(245,245,255,0.3) 100%); */
   border-radius: 12px;
   padding: 30px;
   position: relative;
   overflow: hidden;
-  height: 380px; /* 增加高度以便气泡有更多空间移动 */
+  height: 400px; /* 增加高度以便气泡有更多空间移动 */
   transition: height 0.3s ease;
-  animation: gradientFlow 20s ease-in-out infinite alternate;
+  /* animation: gradientFlow 20s ease-in-out infinite alternate; */
 }
 
 /* 添加梦幻流动背景动画 - 增加关键帧和过渡时间 */
@@ -1495,16 +1498,67 @@ blockquote cite {
 /* 移动端响应式 */
 @media (max-width: 768px) {
   .artistic-bubble-container {
-    height: 500px; /* 移动端增加高度 */
-    padding: 25px 15px;
+    height: 300px; /* 减小高度，适应移动屏幕 */
+    padding: 15px;
+    overflow: hidden;
+    touch-action: none; /* 防止默认的触摸行为 */
   }
   
   .flow-item {
-    font-size: 0.9rem;
-    padding: 6px 12px;
+    font-size: 0.9rem; /* 减小字体大小 */
+    padding: 8px 12px;
+    touch-action: none; /* 防止默认的触摸行为 */
   }
   
   .bubble-heading {
     font-size: 1.3rem;
   }
+  
+  /* 调整Hero区域整体上下内边距 */
+  .hero {
+    padding: 150px 0 60px; /* 增加顶部内边距，从120px改为150px */
+    margin-top: 0; /* 移除顶部外边距 */
+  }
+  
+  /* 调整hero-container上方的空白区域 */
+  .hero-container {
+    padding-top: 30px; /* 添加顶部内边距 */
+  }
+  
+  .hero-content h1 {
+    font-size: 2.5rem;
+    margin-top: 40px; /* 增加顶部边距，从30px改为40px */
+  }
+  
+  .hero-content .semester {
+    font-size: 1.5rem; /* 减小字体大小 */
+    margin-top: 5px; /* 调整与标题的距离 */
+    margin-bottom: 15px; /* 减小底部边距 */
+  }
+  
+  .hero-content .subtitle {
+    font-size: 1.1rem;
+  }
+  
+  /* 防止页面滚动时出现卡顿 */
+  html, body {
+    overscroll-behavior-y: none;
+  }
+}
+
+/* 处理iOS Safari特有的滚动问题 */
+@supports (-webkit-touch-callout: none) {
+  body {
+    /* 防止iOS橡皮筋效果 */
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+  }
+}
+
+/* 为带有ID的部分添加顶部内边距和滚动行为 */
+#overview, #instructors, #syllabus, #faq {
+  scroll-margin-top: 80px; /* 导航栏高度 + 额外空间 */
+  padding-top: 30px; /* 增加顶部内边距 */
 }
