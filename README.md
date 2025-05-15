@@ -74,6 +74,7 @@
 - 方可 (Datawhale成员)
 - 肖岚茜 (清华大学美术学院)
 - jee (清华大学美术学院)
+- 温鑫 (哈尔滨工业大学经管学院)
 
 <div align=center style="margin-top: 30px;">
   <a href="https://github.com/datawhalechina/design-with-ai/graphs/contributors">
