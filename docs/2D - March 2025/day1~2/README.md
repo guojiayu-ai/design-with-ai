@@ -2,6 +2,10 @@
 
 讲师：方可、岚茜
 
+## 课程文档
+
+[课程链接](https://t1kbgkrq0j.feishu.cn/wiki/QtXgwsaO8iCRLRk0YiXcLhJFnab?from=from_copylink)
+
 ## 课程简介 
 
 本节课是一个结合 AI 与设计思维的实战案例教程，将引导你从 0 到 1 完成一个基于 Coze 平台的多智能体 AI 互动故事应用的设计与原型开发。课程以 "AI 带娃"（AI 辅助亲子互动）为具体场景，深入探讨如何将用户需求转化为实际的 AI 产品功能，并最终实现一个可交互的低保真原型。
