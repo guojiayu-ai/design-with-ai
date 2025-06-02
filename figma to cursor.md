@@ -1,14 +1,16 @@
-# Figma通过MCP连接cursor教程
+# 利用 Cursor + MCP实现 Figma 设计原型图的代码自动化生成
 
-我学习figma通过mcp连接cursor是因为我在大创项目担任前端开发工作，同学把Figma原型图发给我之后我截图给cursor开发写代码发现不是特别准确，知道了figma通过mcp可以连接cursor，这样cursor可以1比1复刻写代码了。
+我学习利用 Cursor + MCP实现 Figma 设计原型图、UI的代码自动化生成是因为我在大创项目担任前端开发工作，同学把Figma原型图发给我之后我截图给cursor开发写代码发现不是特别准确，知道了figma通过mcp可以连接cursor，这样cursor可以1比1复刻写代码甚至优化原型图的设计了。写这篇文章主要受众产品经理，平面设计或者是前端开发。通过这篇教程，你可以学会如何把 figma 设计的原型变成可交互网页，甚至让AI精准优化设计UI。
 
-## 安装figma
+## 安装Figma
+为什么用Figma设计原型图和UI：你想把一款产品的页面的构思落地的时候，不管是APP还是WEB，你都需要向开发人员表述清楚，文字只能说清楚功能，对于具体页面长什么样你需要画出来你的想法，绘制原型图的软件有Axure,墨刀，蓝湖等，但是Figma是我感觉最拥抱AI的，社区插件丰富，素材也丰富，而且支持团队协作编辑。虽然不管哪款我都学生认证不了
  [Figma: The Collaborative Interface Design Tool](https://www.figma.com/)
 
 以后想做产品设计等工作的可以在这个网站学习figma的使用：[www.uxbaike.com](http://www.uxbaike.com/)
 ![f08a9bf8477c4d810e3ca794e4c922a.jpg](f08a9bf8477c4d810e3ca794e4c922a.jpg)
 
 ## ​Cursor 安装
+Cursor是一款AI IDE，程序员写代码需要一款编译器（IDE），也就是配一个环境，传统的写代码的编译器（环境）难以实现AI实时协作编程，cursor就是把AI嵌入编程环境中的智能编译器，并且支持免费调用Claude等大模型，而且cursor相比于豆包等大模型更加落地，就是豆包只是回答问题，告诉你应该怎么做，cursor就是解决问题，不仅告诉你该怎么做而且会替你执行答案。
 下载链接：
 - cursor：https://www.cursor.com/cn 
 
@@ -33,7 +35,7 @@
 - cursor Pro有个半破解版地址在https://github.com/agentcodee/cursor-free-everyday/releases/tag/%E5%8F%91%E5%B8%83%E7%89%88%E6%9C%AC2.0.8
 ![alt text](1748487216911.png)
 
-## 将Figma导入到cursor
+## 将 Figma 与 Cursor 建立通信
 
 ### 准备 Figma Api Key
 
@@ -129,6 +131,10 @@ It should be of high quality and have a sense of texture (utilize visual effects
 - Call the 【Artifacts】 plugin to visually preview the UI/UX diagram (visualize the HTML code you wrote).
 
 
-直接用就行，cursor会自动调用MCP tools的。还有在Figma插件社区中，有一个可以实现将html转化成design的插件，叫做html.to.design，但是我没用过，因为我不会部署网站。
+直接用就行，cursor会自动调用MCP tools的，注意不要关终端，不要一次性把所有原型图都上传要不cursor会崩。
+![alt text](1748842271419.png)这个是原型图
+cursor生成的和这个一样，而且交互代码也自己写好了
+![alt text](1cc79facc0ca0e774e70d5996688ad2.jpg)
+此外，如果你想要将已有的 html 网页（通常可以使用 claude 或者 deepseek 直接生成） 转化成 figma 设计稿修改细节，你可以使用 figma 插件中名为 html.to.design 的插件，可以实现该项功能。https://www.figma.com/community/plugin/1159123024924461424/html-to-design-by-divriots-import-websites-to-figma-designs-web-html-css
 
 
