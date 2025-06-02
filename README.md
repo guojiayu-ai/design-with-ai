@@ -59,6 +59,7 @@
 - [Graphic_Design（平面设计 / 视觉传达）](docs/casebook/Graphic_Design/)
   - [如何使用AI生成品牌标识](docs/casebook/Graphic_Design/ai_logo_generation.md) @张三
   - [AI辅助排版设计实践](docs/casebook/Graphic_Design/ai_typography_design.md) @张三
+  
 
 - [Architecture_Interior_Design（建筑与室内设计）](docs/casebook/Architecture_Interior_Design/)
   - [使用Gemini生成建筑设计概念](docs/casebook/Architecture_Interior_Design/gemini_architecture_design.md) @张三
@@ -67,6 +68,9 @@
 - [Video Production（视频创作与生成）](docs/casebook/Video_Production)
   - [AI创意视频《赛博哪吒：天机觉醒》制作教程](docs/casebook/Video_Production/CyberNezha_video_0501_wenxin/CyberNezha_video_0501_wenxin.md) @温鑫
 
+- [UI/UX design(用户界面/用户体验 设计）](docs\casebook\UI_UX_Design/)
+  - [AI辅助设计稿与成品前端界面的转换与优化](docs/casebook/UI_UX_Design/MCP%EF%BC%9Afigma%20to%20cursor/figma%20to%20cursor.md) @郭佳宇
+  
 ## 项目贡献者
 
 感谢每一位贡献者付出的努力，谢谢你们让这个教程变的更好！
@@ -77,6 +81,7 @@
 - 肖岚茜 (清华大学美术学院)
 - jee (清华大学美术学院)
 - 温鑫 (哈尔滨工业大学经管学院)
+- 郭佳宇（哈尔滨工业大学人文社科学部）
 
 <div align=center style="margin-top: 30px;">
   <a href="https://github.com/datawhalechina/design-with-ai/graphs/contributors">
