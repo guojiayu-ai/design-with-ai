@@ -56,29 +56,29 @@
 
 本项目同时包含丰富多样的 AI+ 设计应用场景实战案例，适合同学们按照自己的需求进行学习。
 
-- [Graphic_Design（平面设计 / 视觉传达）](docs/casebook/Graphic_Design/)
-  - [如何使用AI生成品牌标识](docs/casebook/Graphic_Design/ai_logo_generation.md) @张三
-  - [AI辅助排版设计实践](docs/casebook/Graphic_Design/ai_typography_design.md) @张三
+- [中国美术学院人工智能艺术设计实验室知识库](https://ywh0rb17miw.feishu.cn/wiki/UqmMwFsf2iMAupkc4KpcSldin3d)
 
-- [Architecture_Interior_Design（建筑与室内设计）](docs/casebook/Architecture_Interior_Design/)
-  - [使用Gemini生成建筑设计概念](docs/casebook/Architecture_Interior_Design/gemini_architecture_design.md) @张三
-  - [AI辅助室内空间规划](docs/casebook/Architecture_Interior_Design/ai_interior_planning.md) @张三
-
-- [Video Production（视频创作与生成）](docs/casebook/Video_Production)
-  - [AI创意视频《赛博哪吒：天机觉醒》制作教程](docs/casebook/Video_Production/CyberNezha_video_0501_wenxin/CyberNezha_video_0501_wenxin.md) @温鑫
+- [中国美术学院人工智能艺术设计实验室知识卡片](https://ywh0rb17miw.feishu.cn/wiki/IOAvww7WSix8oMkQYuKceHtznAN)
 
 - [UI/UX_Design（用户界面设计 / 用户体验设计）](docs/casebook/UI_UX_Design)
-  -[通过MCP实现Figma设计稿和cursor代码页面的精准互通](docs/casebook/UI_UX_Design/MCP：figma to cursor/figma to cursor.md)@郭佳宇
+  - [利用 Cursor + MCP 实现 Figma 设计原型图的代码自动化生成](docs/casebook/UI_UX_Design/MCP：figma%20to%20cursor/figma%20to%20cursor.md) @郭佳宇
+
+- [Video Production（视频创作与生成）](docs/casebook/Video_Production)
+  - [基于Deepseek和豆包、即梦的视频创作教程](docs/casebook/Video_Production/CyberNezha_video_0501_wenxin/CyberNezha_video_0501_wenxin.md) @温鑫
 
 ## 项目贡献者
 
 感谢每一位贡献者付出的努力，谢谢你们让这个教程变的更好！
 
 ### 核心贡献者
+
 - [散步-Github维护](https://github.com/sanbuphy) (Datawhale成员)
 - 方可 (Datawhale成员)
 - 肖岚茜 (清华大学美术学院)
 - jee (清华大学美术学院)
+- 周致远（中国美术学院[D&A Lab](https://designanything.design/)负责人）
+- 洪玉（中国美术学院D&A Lab成员） 
+- [苗锦林](https://jinlinmiao.xyz)（中国美术学院D&A Lab成员）
 - 温鑫 (哈尔滨工业大学经管学院)
 - 郭佳宇（哈尔滨工业大学人文社科学部）
 
