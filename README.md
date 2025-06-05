@@ -61,7 +61,7 @@
 - [中国美术学院人工智能艺术设计实验室知识卡片](https://ywh0rb17miw.feishu.cn/wiki/IOAvww7WSix8oMkQYuKceHtznAN)
 
 - [UI/UX_Design（用户界面设计 / 用户体验设计）](docs/casebook/UI_UX_Design)
-  - [利用 Cursor + MCP 实现 Figma 设计原型图的代码自动化生成](docs/casebook/UI_UX_Design/MCP：figma%20to%20cursor/figma%20to%20cursor.md) @郭佳宇
+  - [利用 Cursor + MCP 实现 Figma 设计原型图的代码自动化生成](docs/casebook/UI_UX_Design/MCP：figma%20to%20cursor/figma_to_cursor.md) @郭佳宇
 
 - [Video Production（视频创作与生成）](docs/casebook/Video_Production)
   - [基于Deepseek和豆包、即梦的视频创作教程](docs/casebook/Video_Production/CyberNezha_video_0501_wenxin/CyberNezha_video_0501_wenxin.md) @温鑫
