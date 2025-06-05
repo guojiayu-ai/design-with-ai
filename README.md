@@ -67,6 +67,9 @@
 - [Video Production（视频创作与生成）](docs/casebook/Video_Production)
   - [AI创意视频《赛博哪吒：天机觉醒》制作教程](docs/casebook/Video_Production/CyberNezha_video_0501_wenxin/CyberNezha_video_0501_wenxin.md) @温鑫
 
+- [UI/UX_Design（用户界面设计 / 用户体验设计）](docs/casebook/UI_UX_Design)
+  -[通过MCP实现Figma设计稿和cursor代码页面的精准互通](docs/casebook/UI_UX_Design/MCP：figma to cursor/figma to cursor.md)@郭佳宇
+
 ## 项目贡献者
 
 感谢每一位贡献者付出的努力，谢谢你们让这个教程变的更好！
@@ -77,6 +80,7 @@
 - 肖岚茜 (清华大学美术学院)
 - jee (清华大学美术学院)
 - 温鑫 (哈尔滨工业大学经管学院)
+- 郭佳宇（哈尔滨工业大学人文社科学部）
 
 <div align=center style="margin-top: 30px;">
   <a href="https://github.com/datawhalechina/design-with-ai/graphs/contributors">
