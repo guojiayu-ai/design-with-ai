@@ -56,6 +56,8 @@
 
 本项目同时包含丰富多样的 AI+ 设计应用场景实战案例，适合同学们按照自己的需求进行学习。
 
+如果你也想贡献，欢迎参考 [小白也能看懂的 github 贡献指南 @温鑫](docs/casebook/General/GitHub_upload_for_beginners/GitHub_upload_for_beginners.md)
+
 - [中国美术学院人工智能艺术设计实验室知识库](https://ywh0rb17miw.feishu.cn/wiki/UqmMwFsf2iMAupkc4KpcSldin3d)
 
 - [中国美术学院人工智能艺术设计实验室知识卡片](https://ywh0rb17miw.feishu.cn/wiki/IOAvww7WSix8oMkQYuKceHtznAN)
