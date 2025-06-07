@@ -10,7 +10,7 @@
 
 作为一个小白，我第一次接触GitHub时也是一头雾水。当我被要求把自己制作的《赛博哪吒：天机觉醒》AI视频教程上传到GitHub开源项目（[Design with AI](https://github.com/datawhalechina/design-with-ai/)）中参与共建时，我完全不知道该怎么操作（救...）
 
-![image1](images/image1.png)
+![](images/image1.png)
 *Design with AI 开源项目*
 
 
