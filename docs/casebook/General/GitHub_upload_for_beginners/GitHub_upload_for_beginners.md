@@ -10,7 +10,7 @@
 
 作为一个小白，我第一次接触GitHub时也是一头雾水。当我被要求把自己制作的《赛博哪吒：天机觉醒》AI视频教程上传到GitHub开源项目（[Design with AI](https://github.com/datawhalechina/design-with-ai/)）中参与共建时，我完全不知道该怎么操作（救...）
 
-![](images/image1.png)
+![](images/image1.PNG)
 *Design with AI 开源项目*
 
 
@@ -26,7 +26,7 @@
 
 ### 1. GitHub是什么？
 
-![image2](images/image2.png)
+![image2](images/image2.PNG)
 *Github 官网*
 
 想象一下，GitHub就像是一个**超级云盘+社交平台**的结合体：
