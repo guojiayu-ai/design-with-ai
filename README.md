@@ -37,14 +37,15 @@ AI 技术浪潮正席卷各行各业，在创意和产品领域展现出巨大�
 
 本课程以"AI+2D平面设计"为核心，课程内容涵盖AI交互设计、2D视觉设计基础、AI绘图原理、可控平面图像生成、海报与平面艺术创作、AI前沿趋势等，强调理论与实操结合，帮助学员掌握AI时代的2D平面设计创新方法。
 
+
 #### 课程内容一览
 
 | 课时    | 主题                           | 内容概览                                                                                                                         | 课程视频 |
 | ------- | ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------- | -------- |
-| 第1~2天 | [AI交互设计（Coze案例）](docs/2D%20-%20March%202025/day1-2/README.md)         | 设计思维全流程（共情→定义→构思→原型），AI特有设计考量（多智能体、对话流、控制权），Coze平台实操（Agent、Workflow、GUI）         | [课程一：AI交互设计-从问题到创意](https://www.bilibili.com/video/BV1rPMbzQE77)<br>[课程二：AI交互设计-从创意到原型](https://www.bilibili.com/video/BV1nPMbzQEz9)<br>[课程二：AI交互设计-Coze前端设计](https://www.bilibili.com/video/BV1nPMbzQEzo) |
-| 第3天   | [视觉设计基础 & AI绘图原理](docs/2D%20-%20March%202025/day3/README.md)      | 视觉设计原理（色彩/形状/字体/版式），AI原理（Embedding、学习过程、Diffusion），Stable Diffusion与Prompt基础                     | [课程三：视觉设计原理](https://www.bilibili.com/video/BV1nPMbzQEZU)<br>[课程三：人工智能与 AI 绘画原理](https://www.bilibili.com/video/BV1HPMbzQE3J) |
-| 第4天   | [AI可控图像生成 & 海报设计](docs/2D%20-%20March%202025/day4/README.md)      | AI图像可控技术（ControlNet、LoRA、IPAdapter等），AI辅助创意，海报设计原理（修辞、叙事、对比、简洁），视觉传达策略               | [课程四：有个性的图像生成](https://www.bilibili.com/video/BV1nPMbzQEU7)<br>[课程四：海报设计与视觉传达原理](https://www.bilibili.com/video/BV1nPMbzQEzH) |
-| 第5天   | [AI艺术思维 & 绘图新范式/未来](docs/2D%20-%20March%202025/day5/README.md)   | 艺术思维与创新（历史/蓝海/颠覆式），AI绘画新范式（迭代优化），前沿进展（GPT-4o）、未来趋势（Agent/视频）、人类价值（共情）     | [课程五：设计、艺术思维与美](https://www.bilibili.com/video/BV1nPMbzQE1W)<br>[课程五：图像生成前沿，让 AI 像人一样绘画](https://www.bilibili.com/video/BV1rPMbzQE7J) |
+| 第1~2天 | [AI交互设计（Coze案例）](docs/2D%20-%20March%202025/day1-2/README.md)         | 设计思维全流程（共情→定义→构思→原型），AI特有设计考量（多智能体、对话流、控制权），Coze平台实操（Agent、Workflow、GUI）         | - [课程一：AI交互设计-从问题到创意](https://www.bilibili.com/video/BV1rPMbzQE77)<br>- [课程二：AI交互设计-从创意到原型](https://www.bilibili.com/video/BV1nPMbzQEz9)<br>- [课程二：AI交互设计-Coze前端设计](https://www.bilibili.com/video/BV1nPMbzQEzo) |
+| 第3天   | [视觉设计基础 & AI绘图原理](docs/2D%20-%20March%202025/day3/README.md)      | 视觉设计原理（色彩/形状/字体/版式），AI原理（Embedding、学习过程、Diffusion），Stable Diffusion与Prompt基础                     | - [课程三：视觉设计原理](https://www.bilibili.com/video/BV1nPMbzQEZU)<br>- [课程三：人工智能与 AI 绘画原理](https://www.bilibili.com/video/BV1HPMbzQE3J) |
+| 第4天   | [AI可控图像生成 & 海报设计](docs/2D%20-%20March%202025/day4/README.md)      | AI图像可控技术（ControlNet、LoRA、IPAdapter等），AI辅助创意，海报设计原理（修辞、叙事、对比、简洁），视觉传达策略               | - [课程四：有个性的图像生成](https://www.bilibili.com/video/BV1nPMbzQEU7)<br>- [课程四：海报设计与视觉传达原理](https://www.bilibili.com/video/BV1nPMbzQEzH) |
+| 第5天   | [AI艺术思维 & 绘图新范式/未来](docs/2D%20-%20March%202025/day5/README.md)   | 艺术思维与创新（历史/蓝海/颠覆式），AI绘画新范式（迭代优化），前沿进展（GPT-4o）、未来趋势（Agent/视频）、人类价值（共情）     | - [课程五：设计、艺术思维与美](https://www.bilibili.com/video/BV1nPMbzQE1W)<br>- [课程五：图像生成前沿，让 AI 像人一样绘画](https://www.bilibili.com/video/BV1rPMbzQE7J) |
 
 > 课程将通过案例驱动、实操演练，帮助学员打通从设计思维、视觉语言、界面交互到AI原型开发的全流程，提升AI+设计的综合能力。
 
