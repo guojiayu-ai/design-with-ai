@@ -18,3 +18,4 @@
 - Animation_Generation（动画生成）
 - Generative_Video_Art（生成式视频艺术）
 - Social_Media_Content_Generation（社交媒体内容生成）
+- [即梦像素风图片+视频生成教程](docs/casebook/Video_Production/Pixel%20-%20Style%20Image%20%2B%20Video%20Generation%20by%20JimengTutorial/Pixel%20-%20Style%20Image%20%2B%20Video%20Generation%20by%20JimengTutorial.md)
