@@ -61,6 +61,9 @@ AI 技术浪潮正席卷各行各业，在创意和产品领域展现出巨大�
 
 - [中国美术学院人工智能艺术设计实验室知识卡片](https://ywh0rb17miw.feishu.cn/wiki/IOAvww7WSix8oMkQYuKceHtznAN)
 
+- [Graphic_Design（平面设计 / 视觉传达）](docs/casebook/Graphic_Design)
+  - [AI协助品牌设计：基于双钻模型的实战指南 系列一：调研框架](docs/casebook/Graphic_Design/Brand_Design_with_AI/Brand_Design_with_AI_1.md) @散步
+
 - [UI/UX_Design（用户界面设计 / 用户体验设计）](docs/casebook/UI_UX_Design)
   - [利用 Cursor + MCP 实现 Figma 设计原型图的代码自动化生成](docs/casebook/UI_UX_Design/MCP：figma%20to%20cursor/figma_to_cursor.md) @郭佳宇
 
