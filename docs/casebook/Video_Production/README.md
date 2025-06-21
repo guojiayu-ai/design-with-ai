@@ -17,4 +17,4 @@
 - Visual_Effects_Generation（特效生成）
 - Animation_Generation（动画生成）
 - Generative_Video_Art（生成式视频艺术）
-- Social_Media_Content_Generation（社交媒体内容生成）
+- Social_Media_Content_Generation（社交媒体内容生成） 
